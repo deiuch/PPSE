@@ -1,0 +1,4 @@
+Logarithm to base 2 is used in formulas as a measurement of how many bits do we
+need to encode each particular entity in a given set from our program.
+For example, to be able to differ between 27 operands we need to encode each
+of them with (at least) 5-bit long number.
