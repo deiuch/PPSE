@@ -155,7 +155,7 @@ class BlockDivByZero:
         file = self._file
 
         if type is not None:
-            msg = 'Error: ' + self._desc + ', line ' + str()
+            msg = 'Error: ' + self._desc + ', line ' + str(traceback.tb_lineno)
             print(msg)
             timestamp = datetime.datetime.now()
             file.write('[' + str(timestamp) + '] ' + msg + '\n')
